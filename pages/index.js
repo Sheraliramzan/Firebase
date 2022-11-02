@@ -10,7 +10,7 @@ import {
 } from "firebase/auth";
 import { auth } from '../firebase/firebaseConfig';
 
-
+ 
 export default function Home() {
   const [registerEmail, setRegisterEmail] = useState("");
   const [registerPassword, setRegisterPassword] = useState("");
